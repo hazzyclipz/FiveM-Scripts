@@ -47,7 +47,7 @@ cfg.dropA = {
 }
 cfg.dropB = {
   prop = "prop_anim_cash_pile_01", -- prop for this drop
-  min_value = 20, -- Min money value to use this prop
+  min_value = 2000, -- Min money value to use this prop
   RNG = 0.45, -- If random number <= this, use this multiplier and min max
   multiplier = 1.1, -- finalvalue = basevalue * multiplier
   min = 1, -- min amount dropped
@@ -55,7 +55,7 @@ cfg.dropB = {
 }
 cfg.dropC = {
   prop = "prop_cash_envelope_01", -- prop for this drop
-  min_value = 50, -- Min money value to use this prop
+  min_value = 5000, -- Min money value to use this prop
   RNG = 0.35, -- If random number >= this, use this multiplier and min max
   multiplier = 1.3, -- finalvalue = basevalue * multiplier
   min = 1, -- min amount dropped
@@ -63,7 +63,7 @@ cfg.dropC = {
 }
 cfg.dropD = {
   prop = "prop_cash_pile_02", --smaller prop
-  min_value = 100, -- Min money value to use this prop
+  min_value = 10000, -- Min money value to use this prop
   RNG = 0.20, -- If random number >= this, use this multiplier and min max
   multiplier = 1.6, -- finalvalue = basevalue * multiplier
   min = 1, -- min amount dropped
@@ -71,7 +71,7 @@ cfg.dropD = {
 }
 cfg.dropE = {
   prop = "prop_cash_pile_01", -- bigger wad of cash
-  min_value = 250, -- Min money value to use this prop
+  min_value = 25000, -- Min money value to use this prop
   RNG = 0.04, -- If random number >= this, use this multiplier and min max
   multiplier = 2.3, -- finalvalue = basevalue * multiplier
   min = 1, -- min amount dropped
@@ -79,7 +79,7 @@ cfg.dropE = {
 }
 cfg.dropF = {
   prop = "prop_money_bag_01", -- prop for this drop
-  min_value = 500, -- Min money value to use this prop
+  min_value = 50000, -- Min money value to use this prop
   RNG = 0.02, -- If random number >= this, use this multiplier and min max
   multiplier = 4.0, -- finalvalue = basevalue * multiplier
   min = 1, -- min amount dropped
